@@ -6,11 +6,11 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
 @RunWith(Parameterized.class)
-public class Praktikum {
+public class PraktikumTest {
 
     static String name;
 
-    public Praktikum(String name) {
+    public PraktikumTest(String name) {
         this.name = name;
     }
 
